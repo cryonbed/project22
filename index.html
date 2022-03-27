@@ -8,6 +8,9 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
 
+    <!-- aos CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <!-- My CSS -->
     <link rel="stylesheet" href="style.css" />
 
@@ -47,14 +50,45 @@
 
     <div class="jumbotron jumbotron-fluid bg-light">
       <div class="container pt-5">
-        <h1 class="display-4 mt-5">Creativity starts here</h1>
+        <h1 class="display-4 mt-5" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">Creativity starts here</h1>
         <p class="lead">Project 22 Adalah sebuah start-up yang bergerak dibidang creative digital</p>
         <span class="join">
           <a href="#" class="us">Join Us!</a>
         </span>
       </div>
     </div>
+    <!-- Container -->
+    <div class="container-md">
+      <!-- Panel -->
+      <div class="row justify-content-center">
+        <div class="col-10 panel">
+          <div class="row">
+            <div class="col-lg">
+              <img src="img/ccare.png" alt="customer care" class="gambar satu img-fluid float-start" />
+              <p>Gratis konsultasi desain</p>
+            </div>
+            <div class="col-lg">
+              <img src="img/file.png" alt="file" class="gambar dua img-fluid float-start" />
+              <p>Dengan resolusi tinggi</p>
+            </div>
+            <div class="col-lg">
+              <img src="img/price.png" alt="harga" class="gambar tiga img-fluid float-start" />
+              <p>Jaminan harga terbaik</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
+    <!-- script bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- script aos -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1000,
+      });
+    </script>
   </body>
 </html>

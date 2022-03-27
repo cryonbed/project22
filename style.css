@@ -42,6 +42,33 @@ a {
   color: white;
 }
 
+.gambar {
+  width: 80px;
+  height: 80px;
+  margin: 10px 20px 10px 30px;
+}
+
+.panel {
+  background-color: white;
+  box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+  margin-top: -75px;
+  border-radius: 12px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.panel p {
+  margin-top: 25px;
+}
+
+.slide img {
+  width: 300px;
+}
+
+body {
+  height: 2000px;
+}
+
 @media (min-width: 992px) {
   .navbar-brand {
     font-family: poppins, sans-serif;
